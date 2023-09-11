@@ -6,6 +6,7 @@ body {
   height: 100vh;
   margin: 0rem;
   overflow: hidden; 
+  position: relative;
   z-index: -1;
 }
 
