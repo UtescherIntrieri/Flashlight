@@ -21,7 +21,6 @@ body {
   border: 10000px solid #000000;
   z-index: 4;
   pointer-events: none;
-  box-shadow: outset 0px 0px 40px 50px #000000;
   filter: blur(1vmax);
   z-index: 4;
   overflow: hidden;
@@ -46,4 +45,3 @@ img {
 img:hover {
   cursor: crosshair;
 }
-
