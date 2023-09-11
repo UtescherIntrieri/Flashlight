@@ -1,0 +1,46 @@
+body {
+  background-image: url(white-texture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0rem;
+  overflow: hidden; 
+  z-index: -1;
+}
+
+#blob {
+  height: 15vmax;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  border: 10000px solid #000000;
+  z-index: 4;
+  pointer-events: none;
+  box-shadow: outset 0px 0px 40px 50px #000000;
+  filter: blur(1vmax);
+  z-index: 4;
+}
+
+img {
+  font-family: 'Space Mono', monospace;
+  height: 100px;
+  font-size: clamp(3rem, 10vw, 10rem);
+  white-space: nowrap;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  margin: 0rem;
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  translate: -50% -50%;
+  z-index: 3;
+  padding: 0px;
+}
+img:hover {
+  cursor: crosshair;
+}
+
