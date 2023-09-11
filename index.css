@@ -23,6 +23,7 @@ body {
   box-shadow: outset 0px 0px 40px 50px #000000;
   filter: blur(1vmax);
   z-index: 4;
+  overflow: hidden;
 }
 
 img {
@@ -39,6 +40,7 @@ img {
   translate: -50% -50%;
   z-index: 3;
   padding: 0px;
+  overflow: hidden;
 }
 img:hover {
   cursor: crosshair;
